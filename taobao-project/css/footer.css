@@ -1,0 +1,19 @@
+footer{
+    width: 1200px;
+    height: 170px;
+    margin: 60px auto 0;
+}
+footer ul{
+    height: 27px;;
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    line-height: 27px;
+}
+footer ul li{
+    float: left;
+}
+footer ul li>a{
+    padding: 0 10px;
+    border-right: 1px solid #ddd;
+}

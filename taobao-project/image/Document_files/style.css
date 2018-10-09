@@ -1,0 +1,12 @@
+.wrap{
+    width: 640px;
+    border:1px solid gray;
+}
+p{
+    font-size: 26px;
+}
+p img{
+    float: left;
+    width: 300px;
+    height: 300px;
+}
