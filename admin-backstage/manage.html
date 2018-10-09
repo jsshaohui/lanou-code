@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>作品管理</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/manage.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="top">
+        <div class="item item1 fl">
+            <a href="home.html" style="color:#fff">
+                首页
+            </a>
+        </div>
+        <div class="item item2 fl">网站首页</div>
+        <div class="item item3 fr">退出</div>
+        <div class="item item4 fr">修改密码</div>
+        <div class="item item5 fr">管理员</div>
+    </div>
+    <!-- 左侧导航 -->
+    <div class="nav fl">
+        <div class="name">
+            菜单
+        </div>
+        <ul>
+            <li class="title">
+                <a href="">
+                    <img src="image/icon.png" alt="">
+                    常用操作
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="image/icon.png" alt="">
+                    作品管理
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="image/icon.png" alt="">
+                    博文管理
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="image/icon.png" alt="">
+                    分类管理
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="image/icon.png" alt="">
+                    留言管理
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="image/icon.png" alt="">
+                    评论管理
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="image/icon.png" alt="">
+                    友情链接
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="image/icon.png" alt="">
+                    广告管理
+                </a>
+            </li>
+            <li class="title">
+                <a href="system.html">
+                    <img src="image/icon.png" alt="">
+                    系统管理
+                </a>
+
+            <li>
+                <a href="system.html">
+                    <img src="image/icon.png" alt="">
+                    系统设置
+                </a>
+            </li>
+            <li>
+                <a href="system.html">
+                    <img src="image/icon.png" alt="">
+                    清理缓存
+                </a>
+            </li>
+            <li>
+                <a href="system.html">
+                    <img src="image/icon.png" alt="">
+                    数据备份
+                </a>
+            </li>
+            <li>
+                <a href="system.html">
+                    <img src="image/icon.png" alt="">
+                    数据还原
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="content fl">
+        <div class="join">
+            <img src="image/home.png" alt="">
+            <a href="home.html">首页</a>
+            >
+            作品管理
+        </div>
+        <div class="title clearfix">
+            <div class="label label1">选择分类：</div>
+            <select name="" id="" class="fl">
+                <option value="">全部</option>
+                <option value="">精品界面</option>
+                <option value="">推荐界面</option>
+            </select>
+            <div class="label label2">关键字：</div>
+            <input type="text" class="fl" placeholder="关键字">
+            <button class="fl">查询</button>
+        </div>
+        <div class="cont">
+            <div class="list">
+                <a href="add.html">
+                    <img src="image/manage2.png" alt="">
+                    新增作品
+                </a>
+                <a href="">
+                    <img src="image/manage1.png" alt="">
+                    批量删除
+                </a>
+                <a href="">
+                    <img src="image/manage1.png" alt="">
+                    更新排序
+                </a>
+            </div>
+            <table width="100%">
+                <tbody>
+                    <tr>
+                        <th class="cen">
+                            <input type="checkbox">
+                        </th>
+                        <th>排序</th>
+                        <th>ID</th>
+                        <th>标题</th>
+                        <th>审核状态</th>
+                        <th>点击</th>
+                        <th>发布人</th>
+                        <th>更新时间</th>
+                        <th>评论</th>
+                        <th>操作</th>
+                    </tr>
+                    <tr>
+                        <td class="cen">
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <input type="text" class="number" value="0">
+                        </td>
+                        <td>59</td>
+                        <td>我爱我们</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>yushaohui</td>
+                        <td>2014-03-15 21:11:01 </td>
+                        <td></td>
+                        <td>
+                            <a href="">修改</a>
+                            <a href="">删除</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cen">
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <input type="text" class="number" value="0">
+                        </td>
+                        <td>58</td>
+                        <td>我爱我们</td>
+                        <td>0</td>
+                        <td>99</td>
+                        <td>yushaohui</td>
+                        <td>2014-03-15 21:11:01 </td>
+                        <td></td>
+                        <td>
+                            <a href="">修改</a>
+                            <a href="">删除</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="page">
+                2 条 1/1 页
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

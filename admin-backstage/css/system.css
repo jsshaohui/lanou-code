@@ -1,0 +1,16 @@
+.content .wrap .title{
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.content .wrap .title img{
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.content .wrap .item .cont input{
+    width: 721px !important;
+}
+.content .wrap .item span{
+    color:#f60;
+    vertical-align: middle;
+}

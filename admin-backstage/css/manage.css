@@ -1,0 +1,95 @@
+.content .title{
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 30px;
+}
+.content .title .label{
+    text-align: right;
+    float: left;
+    padding-right: 10px;
+}
+.content .title .label1{
+    width: 120px;
+}
+.content .title .label2{
+    width: 70px;
+}
+.content .title button{
+    background-image: linear-gradient(to bottom,#0088cc,#0044cc);
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    vertical-align: middle;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+.content .title input{
+    height: 23px;
+    line-height: 23px;
+    padding: 2px 4px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.content .title select{
+    margin-top: 5px;
+}
+.content .cont{
+    padding: 10px 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.content .cont .list{
+    line-height: 35px;
+    margin-bottom: 5px;
+}
+.content .cont .list>a{
+    margin-right: 15px;
+    color: #428bca;
+}
+.content .cont .list>a>img{
+    vertical-align: middle;
+}
+.content .cont table{
+    border: 1px solid #ddd;
+}
+.content .cont table th{
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #e1e1e1;
+    font-size: 15px;
+    text-align: left;
+    height: 44px;
+    background: #f9f9f9;
+}
+.content .cont table tr:hover{
+    background: #f9f9f9;
+}
+
+.content .cont table td{
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #e1e1e1;
+    height: 44px;
+}
+.content .cont table .number{
+    width: 31px;
+    height: 26px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+.content .cont table .cen{
+    text-align: center;
+}
+.content .cont table a{
+    color: #428bca
+}
+.content .page{
+    padding: 20px 0;
+    text-align: center;
+}

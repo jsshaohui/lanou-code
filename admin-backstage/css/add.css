@@ -1,0 +1,65 @@
+
+.content .wrap{
+    padding: 10px 20px;
+    border-bottom: 1px solid #e5e5e5;   
+}
+.content .wrap .box{
+    border: 1px solid #e5e5e5;
+}
+.content .wrap .item{
+    line-height: 40px;
+    width: 1116px;
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+}
+.content .wrap .item .label{
+    width: 122px;
+    height: 40px;
+    text-align: right;
+    font-weight: normal;
+    padding-right: 10px;
+    font-size: 14px; 
+    float: left;
+    border-right: 1px solid #e5e5e5;
+}
+.content .wrap .item .cont{
+    width: calc(100% - 143px);
+    padding-left: 10px;
+    float: left;
+}
+.content .wrap .item .cont input{
+    height: 23px;
+    width: 430px;
+    line-height: 23px;
+    padding: 2px 4px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+.content .wrap .item44 input{
+    border: none !important;
+    outline: none;
+}
+.content .wrap .item55 .label{
+    height: 188px;
+    line-height: 188px;
+}
+.content .wrap .item .cont button{
+    width: 120px;
+    color: #ffffff;
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 4px;
+    background: #006dcc;
+    border: 1px solid #006dcc;
+    margin-right: 10px;
+}
+.content .wrap .item .cont button:nth-child(2){
+    background: #f5f5f5;
+    color: #333;
+    border: 1px solid #bbbbbb !important;
+}
+
