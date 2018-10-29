@@ -58,6 +58,11 @@ header .header-wrap>a{
     right: 60px;
     bottom: 130px;
 }
+.main .main-wrap .fbox span{
+    background: #f00;
+    color: #fff;
+    display: none;
+}
 .main .main-wrap .fbox .box1{
     height: 18px;
     line-height: 18px;

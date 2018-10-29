@@ -39,13 +39,15 @@
                     <div class="label">
                         <img src="image/sign-box1.png" alt="">
                     </div>
-                    <input type="text" placeholder="会员名/邮箱/手机号">
+                    <input type="username" placeholder="会员名/邮箱/手机号" name="username">
+                    <span class="span1">账号不能为空</span>
                 </div>
                 <div class="box3 box">
                     <div class="label">
                         <img src="image/sign-box2.png" alt="">
                     </div>
-                    <input type="text">
+                    <input type="password" placeholder="请输入密码" name="password">
+                    <span class="span2">密码不能为空</span>
                 </div>
                 <button type="submit" class="box4 box">登录</button>
                 <div class="box5">
@@ -107,6 +109,27 @@
         </ul>
         <img src="image/sign-foot.jpg" alt="">
     </footer>
+
+    <script>
+        var username =document.getElementsByName('username')[0];
+        var password = document.getElementsByName('password')[0];
+        var span1 = document.getElementsByClassName('span1')[0];
+        var span2 = document.getElementsByClassName('span2')[0];
+        username.onblur = function(){
+            if(this.value == ''){
+                span1.style.display = 'inline-block';
+            }else{
+                span1.style.display = 'none';
+            }
+        }
+        password.onblur = function(){
+            if(this.value == ''){
+                span2.style.display = 'inline-block';
+            }else{
+                span2.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 
 </html>
